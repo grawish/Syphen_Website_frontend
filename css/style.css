@@ -1,0 +1,724 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Patua+One');
+#navbartop {
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.dropdown-menu li a {
+    color: #428cf4;
+}
+
+.about-text {
+    font-family: roboto;
+    color: #777;
+    font-size: 15.5px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar a {
+    color: #fff;
+}
+
+.navbar a:hover {
+    color: #428cf4;
+}
+
+#clients {
+    padding-bottom: 50px;
+}
+
+.navbar-brand img {
+    height: 3rem;
+}
+
+.active a {
+    background: #428cf4;
+    color: #fff;
+}
+
+.active a:hover {
+    background: #428cf4;
+    color: #000;
+}
+
+.abs {
+    position: absolute;
+}
+
+.video-wrap {
+    clip: rect(0, auto, auto, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+html{
+  scroll-behavior: smooth;
+}
+#video {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center center;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    will-change: transform;
+    z-index: -1000;
+}
+
+.row,
+.container-fluid {
+    margin-left: 0px!important;
+    margin-right: 0px!important;
+}
+
+video {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background: url('') no-repeat;
+    background-size: cover;
+    transition: 1s opacity;
+}
+
+.head-font-color {
+    font-family: 'Oswald', sans-serif;
+    color: #428cf4;
+}
+.sub-head{
+  font-weight: bold;
+  font-size: 2em;
+}
+.product-para{
+  font-size: 1.5em;
+}
+.head-font {
+    font-family: 'Oswald', sans-serif;
+}
+
+.caption {
+    position: absolute;
+    top: 20%;
+    width: 100%;
+}
+.backbutton{
+  font-size: 190%; border: 1px solid #c4c4c4; border-radius: 5px; padding: 5px 7px;
+}
+.caption1 {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+}
+
+.caption-icon {
+    position: absolute;
+    top: 88%;
+    left: 50%;
+    color: #428cf4;
+}
+
+.video-background {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.white-text {
+    color: #fff;
+}
+
+.white-text a {
+    color: #fff;
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 1);
+    border-radius: 20px;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 20px
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.themecolorbg {
+    background: #428cf4;
+}
+
+.main-logo {
+    max-width: 40%;
+}
+
+.get-quote-btn {
+    width: 200px;
+}
+
+.social-media-bar {
+    float: right;
+}
+
+.facebook {
+    color: #8b93c3;
+}
+
+.twitter {
+    color: #1da1f2;
+}
+
+.google-plus {
+    color: #d34836
+}
+
+.linkedin {
+    color: #fff;
+}
+
+.move {
+    margin: 17px 0px;
+}
+
+.clients {
+    padding: 10px;
+}
+
+.white-text {
+    color: #fff;
+}
+
+.border-card {
+    border: solid #0957c4 2px;
+}
+
+#welcome {
+    font-family: 'Slabo 27px';
+    text-decoration: underline;
+    text-decoration-style: solid;
+    animation: mymove 3s infinite;
+}
+
+@keyframes mymove {
+    50% {
+        text-decoration-color: #428cf4;
+    }
+}
+
+.product-head {
+    font-family: 'oswald', serif;
+    font-size: 1.5rem;
+    color: #428cf4;
+    margin: 10px 0px;
+}
+
+.product-list {
+    font-family: 'Oswald', serif;
+    font-size: 15px;
+    color: #428cf4;
+    margin: 10px 0px;
+}
+
+#rpc {
+    font-family: 'Oswald', serif;
+    font-size: 14px;
+    color: #428cf4;
+    margin: 10px 0px;
+    color: white;
+}
+
+.container_hover {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay-2 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    border-radius: 3px;
+    background-color: rgba(66, 140, 244, 0.9);
+    padding: 15%;
+}
+
+.text-p-overlay {
+    font-family: 'roboto';
+    font-size: 20px;
+    text-align: justify;
+    margin: 30px 0px;
+}
+
+.container_hover:hover .overlay-2 {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgb(66, 140, 244);
+}
+
+.container_hover:hover .overlay {
+    opacity: 1;
+}
+
+.overlay .text {
+    color: white;
+    font-family: 'oswald', serif;
+    font-size: 30px;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.about {
+    max-width: 100%;
+    font-size: 150px;
+    font-family: optima;
+    text-decoration: underline;
+    color: #428cf4;
+}
+
+.list {
+    color: white;
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.product-btn {
+    font-family: 'oswald', serif;
+    font-size: 15px;
+    color: #428cf4;
+    margin: 10px 0px;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+}
+
+.response {
+    width: 1vw;
+    height: auto;
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .overlay .text {
+        color: white;
+        font-family: 'oswald', serif;
+        font-size: 20px;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        /*-webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+        text-align: center;
+    }
+    .product-list {
+        font-family: 'Oswald', serif;
+        font-size: 12px;
+        color: #428cf4;
+        margin: 10px 0px;
+    }
+    #rpc {
+        font-family: 'Oswald', serif;
+        font-size: 12px;
+        color: #428cf4;
+        margin: 10px 0px;
+        color: white;
+    }
+    .about {
+        max-width: 100%;
+        font-size: 150px;
+        font-family: optima;
+        text-decoration: underline;
+        color: #428cf4;
+    }
+    .list {
+        color: white;
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .product-btn {
+        font-family: 'oswald', serif;
+        font-size: 15px;
+        color: #428cf4;
+        margin: 10px 0px;
+        position: absolute;
+        top: 70%;
+        left: 40%;
+    }
+    .dropdmown-menu li a {
+        color: #428cf4;
+    }
+}
+
+
+/*for mobile devices*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .overlay .text {
+        color: white;
+        font-family: 'oswald', serif;
+        font-size: 35px;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        /*-webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+        text-align: center;
+    }
+    .product-list {
+        font-family: 'Oswald', serif;
+        font-size: 25px;
+        color: #428cf4;
+        margin: 10px 0px;
+    }
+    #rpc {
+        font-family: 'Oswald', serif;
+        font-size: 25px;
+        color: #428cf4;
+        margin: 10px 0px;
+        color: white;
+    }
+    .about {
+        max-width: 100%;
+        font-size: 80px;
+        font-family: optima;
+        text-decoration: underline;
+        color: #428cf4;
+    }
+    .list {
+        color: white;
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .product-btn {
+        font-family: 'oswald', serif;
+        font-size: 20px;
+        color: #428cf4;
+        margin: 10px 0px;
+        position: absolute;
+        top: 70%;
+        left: 40%;
+    }
+    @font-face {
+        font-family: optima;
+        src: url(fonts/Optima-Thin.ttf);
+    }
+    .dropdown-menu li a {
+        color: #428cf4;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    /*.container_hover:hover .overlay {
+  opacity: 1;
+}*/
+    .overlay .text {
+        color: white;
+        font-family: 'oswald', serif;
+        font-size: 20px;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        /*-webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+        text-align: center;
+    }
+    .product-list {
+        font-family: 'Oswald', serif;
+        font-size: 10px;
+        color: #428cf4;
+        margin: 10px 0px;
+    }
+    #rpc {
+        font-family: 'Oswald', serif;
+        font-size: 9px;
+        color: #428cf4;
+        margin: 10px 0px;
+        color: white;
+    }
+    .about {
+        max-width: 100%;
+        font-size: 70px;
+        font-family: optima;
+        text-decoration: underline;
+        color: #428cf4;
+    }
+    .list {
+        color: white;
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .product-btn {
+        font-family: 'oswald', serif;
+        font-size: 15px;
+        color: #428cf4;
+        margin: 10px 0px;
+        position: absolute;
+        top: 70%;
+        left: 35%;
+    }
+    .dropdown-menu li a {
+        color: #428cf4;
+    }
+}
+
+
+/* 992 px */
+
+
+/* mac large */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .overlay .text {
+        color: white;
+        font-family: 'oswald', serif;
+        font-size: 35px;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        /*-webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+        text-align: center;
+    }
+    .product-list {
+        font-family: 'Oswald', serif;
+        font-size: 20px;
+        color: #428cf4;
+        margin: 10px 0px;
+    }
+    #rpc {
+        font-family: 'Oswald', serif;
+        font-size: 19px;
+        color: #428cf4;
+        margin: 10px 0px;
+        color: white;
+    }
+    .about {
+        max-width: 100%;
+        font-size: 100px;
+        font-family: optima;
+        text-decoration: underline;
+        color: #428cf4;
+    }
+    .list {
+        color: white;
+        position: absolute;
+        top: 45%;
+        left: 47%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .product-btn {
+        font-family: 'oswald', serif;
+        font-size: 15px;
+        color: #428cf4;
+        margin: 10px 0px;
+        position: absolute;
+        top: 70%;
+        left: 40%;
+    }
+    .dropdmown-menu li a {
+        color: #428cf4;
+    }
+}
+
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    .overlay .text {
+        color: white;
+        font-family: 'oswald', serif;
+        font-size: 20px;
+        position: absolute;
+        top: 10%;
+        left: 50%;
+        /*-webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);*/
+        text-align: center;
+    }
+    .product-list {
+        font-family: 'Oswald', serif;
+        font-size: 12px;
+        color: #428cf4;
+        margin: 10px 0px;
+    }
+    #rpc {
+        font-family: 'Oswald', serif;
+        font-size: 12px;
+        color: #428cf4;
+        margin: 10px 0px;
+        color: white;
+    }
+    .about {
+        max-width: 100%;
+        font-size: 100px;
+        font-family: optima;
+        text-decoration: underline;
+        color: #428cf4;
+    }
+    .list {
+        color: white;
+        position: absolute;
+        top: 45%;
+        left: 45%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+    }
+    .product-btn {
+        font-family: 'oswald', serif;
+        font-size: 15px;
+        color: #428cf4;
+        margin: 10px 0px;
+        position: absolute;
+        top: 70%;
+        left: 40%;
+    }
+    .dropdmown-menu li a {
+        color: #428cf4;
+    }
+}
+
+.shadow-card {
+    position: absolute;
+    top: 450px;
+    background: #fff;
+    width: 100%;
+    box-shadow: 0px -10px 100px black;
+}
+
+.products-body {
+    background: url('../img/bg.jpg') center center no-repeat fixed;
+    background-size: cover;
+}
+
+.bg-alternate {
+    width: 100%;
+    display: table;
+    height: 100%;
+    /*position: fixe;*/
+}
+
+.white-bg {
+    background: #fff;
+}
+
+.pro-head {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.pro-head h1 {
+    font-family: 'Patua One', cursive;
+    font-size: 700%;
+    color: #fff;
+    text-shadow: 0px 0px 50px black;
+    margin: 15% 0;
+}
+
+.footer-bg {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)), url('https://content1.jdmagicbox.com/def_content/general_physician_doctors/default-general-physician-doctors-9.jpg') no-repeat center center fixed;
+    background-size: cover;
+    border-top: 2px solid #428cf4;
+}
+
+hr.style-two {
+    overflow: visible;
+    /* For IE */
+    padding: 0;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    ;
+    border: none;
+    border-top: medium double #333;
+    color: #333;
+    text-align: center;
+}
+
+hr.style-two:after {
+    content: "§";
+    /*display: inline-block;*/
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    background: #fff;
+}
