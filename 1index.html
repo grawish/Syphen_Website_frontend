@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Syphen Technologies</title>
     <meta charset="utf-8">
@@ -15,29 +14,28 @@
     <link rel="shortcut icon" href="img/favicon.jpg" type="image/jpg">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/responsive.css">
-    <script src="js/smooth-scroll.js"></script>
-
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Roboto|Slabo+27px" rel="stylesheet">
+    <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
     <link rel="stylesheet" type="text/css" href="css/loader.css">
     <script type="text/javascript">
-        window.addEventListener("load", function() {
-            var load_screen = document.getElementById("load_screen");
-            document.body.removeChild(load_screen);
-        });
+    window.addEventListener("load", function() {
+        var load_screen = document.getElementById("load_screen");
+        document.body.removeChild(load_screen);
+    });
     </script>
 </head>
 
 <body>
     <!-- loading div -->
-   <div id="load_screen">
-	<div class="container containerloader">
-  <div class="item-1"></div>
-  <div class="item-2"></div>
-  <div class="item-3"></div>
-  <div class="item-4"></div>
-  <div class="item-5"></div>
-</div>
-</div>
+    <div id="load_screen">
+        <div class="container containerloader">
+            <div class="item-1"></div>
+            <div class="item-2"></div>
+            <div class="item-3"></div>
+            <div class="item-4"></div>
+            <div class="item-5"></div>
+        </div>
+    </div>
     <!--navbar hai ye-->
     <nav class="navbar navbar-dark navbar-fixed-top" id="navbartop">
         <a class="navbar-brand mx-auto scroll" href="index.html"><img src="img/logo.png"></a>
@@ -60,7 +58,6 @@
             </ul>
         </div>
     </nav>
-
     <!--nav class="navbar yamm">
                 <div class="navbar-header hidden-md  hidden-lg  hidden-sm">
                   <button type="button" data-toggle="collapse" data-target="#navbar-collapse-1" class="navbar-toggle"><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button>
@@ -68,7 +65,7 @@
                 <div id="navbar-collapse-1" class="navbar-collapse collapse">
                   <ul class="nav navbar-nav">
                     <li class="dropdown"><a href="index-2.html">Home</a>                    </li>
-                 
+
                     <li class="dropdown"> <a>Massmatic Courses</a>
                       <ul role="menu" class="dropdown-menu">
                         <li><a href="lceh-grade1.html">Massmatic-CEH</a></li>
@@ -83,23 +80,22 @@
                         <li><a href="workshop-Calendar.html">Colleges/ Schools Training Sessions</a></li>
                       </ul>
                     </li>
-                    
+
                     <li class="dropdown"><a href="events.html">Our Seminars</a></li>
-                      
-                    
+
+
                     <li class="dropdown"><a href="students.html">Student's Section</a>                    </li>
-                
+
                     <li><a href="contact-us.html">Contact Us</a></li>
                   </ul>
                 </div>
               </nav-->
-
     <div class="video-background">
         <div class="video-wrap">
             <div id="video">
                 <video id="bgvid" autoplay muted loop playsinline>
-	<source src="video/bg.mp4" type="video/mp4">
-</video>
+                    <source src="video/bg.mp4" type="video/mp4">
+                </video>
             </div>
         </div>
     </div>
@@ -108,15 +104,13 @@
         <br>
         <a class="btn btn-primary get-quote-btn" data-toggle="modal" data-target="#myModal">Get A Quote</a>
     </div>
-    <a href="#carouselExampleIndicators">
+    <a href="#carousel">
         <h1 class="caption-icon"><span class="glyphicon glyphicon-chevron-down"></span></h1>
     </a>
-
     <!-- modal starts here -->
     <!-- get a quote form -->
     <div id="myModal" class="modal fade" role="dialog">
         <div class="modal-dialog modal-lg">
-
             <!-- Modal content-->
             <div class="modal-content" style="background: #4c4d4f; color: #fff;">
                 <div class="modal-header">
@@ -124,77 +118,94 @@
                     <h4 class="modal-title">Get a Quote</h4>
                 </div>
                 <div class="modal-body">
-                    <form id="uparwala">
+                    <form id="uparwala" action="https://send.pageclip.co/jdFZcAoVz73jDxSiSi3vuEF7Q5JfIYqg/Contact-Form" class="pageclip-form" method="post">
                         <div class="form-group"><label for="name">Name*: </label><input class="form-control" type="text" name="name"></div>
                         <div class="form-group"><label for="email">Email*: </label><input class="form-control" type="email" name="email"></div>
-                        <div class="form-group"><label for="Phone">Phone No.(with country code)*</label><input class="form-control" type="tel" name="Phone" min="10" max="14"></div>
+                        <div class="form-group"><label for="Phone">Phone No.(with country code)*</label><input class="form-control" type="tel" name="phone"></div>
                         <div class="form-group"><label for="subject">Subject: </label><input class="form-control" type="text" name="subject"></div>
                         <div class="form-group">
                             <label>Message :</label>
                             <textarea name="message" form="uparwala" rows="5" class="form-control"></textarea>
                         </div>
-                        <input class="btn btn-success" type="submit" name="submit">
+                        <button class="btn btn-success pageclip-form__submit" type="submit" name="submit"><span>Submit!</span></button>
                     </form>
-
                 </div>
                 <div class="modal-footer">
-
                 </div>
             </div>
-
         </div>
     </div>
-
     <!-- modal ends -->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="2500">
+    <div id="carousel" class="carousel slide" data-ride="carousel" data-interval="2500">
         <ol class="carousel-indicators">
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#carousel" data-slide-to="1"></li>
+            <li data-target="#carousel" data-slide-to="2"></li>
+            <li data-target="#carousel" data-slide-to="3"></li>
+            <li data-target="#carousel" data-slide-to="4"></li>
+            <li data-target="#carousel" data-slide-to="5"></li>
         </ol>
         <div class="carousel-inner">
             <div class="item active">
                 <img src="img/slides/slider1.jpg" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="head-font ccaption">Thyroid Scan</h1>
+                    <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+                </div>
             </div>
             <div class="item">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="head-font ccaption">Bone Imaging</h1>
+                    <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+                </div>
                 <img src="img/slides/slider2.jpg" alt="Second slide">
             </div>
             <div class="item">
                 <img src="img/slides/slider3.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="head-font ccaption">Myocardial Perfusion Imaging</h1>
+                    <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+                </div>
             </div>
             <div class="item">
                 <img src="img/slides/slider4.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="head-font ccaption">Gold Anchor</h1>
+                    <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+                </div>
             </div>
             <div class="item">
                 <img src="img/slides/slider5.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="head-font ccaption">Dash</h1>
+                    <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+                </div>
             </div>
             <div class="item">
                 <img src="img/slides/slider6.jpg" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h1 class="head-font ccaption">A-Lap</h1>
+                    <!-- <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p> -->
+                </div>
             </div>
         </div>
-        <a class="left carousel-control" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
             <span class="glyphicon glyphicon-chevron-left"></span>
         </a>
-        <a class="right carousel-control" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
             <span class="glyphicon glyphicon-chevron-right"></span>
         </a>
     </div>
     <br>
-    <div class="container" id="ourteam">
+    <!-- <div class="container" id="ourteam">
         <h1 class="text-center head-font animated wow fadeInRight">Our Team</h1>
-        <hr class="style-two">
         <div class="row">
-
             <div class="col-md-4">
                 <div class="thumbnail wow fadeInUp animated" data-wow-delay="0.6s" align="center">
                     <img class="image-responsive img-circle" src="img/team/namisha.jpeg">
                     <h4><b>Namisha Kaul Bhan</b></h4>
                     <h5>Cheif Operating Officer</h5>
-                    <p class="card-text">Ms. Namisha Kaul is the Expert of all the operations at Syphen Technologies</p>
-                    <a href="#" class="btn btn-primary">Email Namisha <i class="glyphicon glyphicon-envelope"></i></a>
+                    <a href="mailto:namisha@syphentech.com" class="btn btn-primary">Email Namisha <i class="glyphicon glyphicon-envelope"></i></a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -202,8 +213,7 @@
                     <img class="image-responsive img-circle" src="img/team/ankush.jpeg">
                     <h4><b>Ankush Bhan</b></h4>
                     <h5>Proprietor</h5>
-                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-success">Contact Ankush <i class="glyphicon glyphicon-earphone"></i></a>
+                    <a href="tel:+917011573306" class="btn btn-success">Contact Ankush <i class="glyphicon glyphicon-earphone"></i></a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -211,20 +221,17 @@
                     <img class="image-responsive img-circle" src="img/team/kapil.png">
                     <h4><b>Kapil Silaveni</b></h4>
                     <h5>Growth Unit Head</h5>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-success">Contact Kapil <i class="glyphicon glyphicon-earphone"></i></a>
+                    <a href="tel:+917013684430" class="btn btn-success">Contact Kapil <i class="glyphicon glyphicon-earphone"></i></a>
                 </div>
             </div>
         </div>
-
         <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail wow fadeInUp animated" data-wow-delay="0.6s" align="center">
                     <img class="image-responsive img-circle" src="img/team/amar.jpeg">
                     <h4><b>Amar</b></h4>
                     <h5>Manager</h5>
-                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-success">Contact Amar <i class="glyphicon glyphicon-earphone"></i></a>
+                    <a href="tel:+919899919902" class="btn btn-success">Contact Amar <i class="glyphicon glyphicon-earphone"></i></a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -232,8 +239,7 @@
                     <img class="image-responsive img-circle" src="img/team/pankaj.jpeg">
                     <h4><b>Pankaj</b></h4>
                     <h5>Head of Sales and Marketing</h5>
-                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-success">Contact Pankaj <i class="glyphicon glyphicon-earphone"></i></a>
+                    <a href="tel:9953246691" class="btn btn-success">Contact Pankaj <i class="glyphicon glyphicon-earphone"></i></a>
                 </div>
             </div>
             <div class="col-md-4">
@@ -241,16 +247,16 @@
                     <img class="image-responsive img-circle" src="img/team/Krishna.jpeg">
                     <h4><b>Krishna</b></h4>
                     <h5>Logistic Manager</h5>
-                    <p>Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-primary">Email Krishna <i class="glyphicon glyphicon-envelope"></i></a>
+                    <a href="mailto:syphen.krishna@gmail.com" class="btn btn-primary">Email Krishna <i class="glyphicon glyphicon-envelope"></i></a>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <br>
     <!-- products -->
     <div class="container-fluid themecolorbg" id="ourproducts">
         <h1 class="text-center head-font wow animated fadeIn">Our Products</h1>
+        <h4 class="text-center">Touch or Hover the images for more options</h4>
         <div class="row">
             <div class="col-md-4">
                 <div class="thumbnail wow animated fadeInUp border-card container_hover" data-wow-delay="0.4s" align="center">
@@ -264,7 +270,7 @@
                                 <li>Mon Iodine -131 Capsule</li>
                                 <li>Ge68/Ga68 Generator</li>
                             </ul>
-                            <a class="btn btn-default product-btn" href="products/isotopes.html">Know More</a>
+                            <a class="btn btn-default product-btn" href="html/isotopes.html">Know More</a>
                         </div>
                     </div>
                     <p class="card-text product-head">Radio-Isotopes</p>
@@ -277,9 +283,8 @@
                             <ul class="list product-list">
                                 <h4>Fiducial Marker</h4>
                                 <li>Gold Anchor Markers</li>
-
                             </ul>
-                            <a class="btn btn-default product-btn" href="products/oncology.html">Know More</a>
+                            <a class="btn btn-default product-btn" href="html/oncology.html">Know More</a>
                         </div>
                     </div>
                     <p class="card-text product-head">Radio-Oncology</p>
@@ -301,7 +306,7 @@
                                 <li>MDP Kit for the Bone Imaging</li>
                                 <li>MIBI Kit for the Myocardial Perfusion Imaging</li>
                             </ul>
-                            <a class="btn btn-default product-btn" href="products/radiopharmaceuticals.html">Know More</a>
+                            <a class="btn btn-default product-btn" href="html/radiopharmaceuticals.html">Know More</a>
                         </div>
                     </div>
                     <p class="card-text product-head">Radiopharmaceuticals</p>
@@ -315,7 +320,7 @@
                                 <li>Laparoscopic Surgery</li>
                                 <li>Open Surgery</li>
                             </ul>
-                            <a class="btn btn-default product-btn" href="products/surgery.html">Know More</a>
+                            <a class="btn btn-default product-btn" href="html/surgery.html">Know More</a>
                         </div>
                     </div>
                     <p class="card-text product-head">Surgery</p>
@@ -344,7 +349,6 @@
             </div>
         </div>
     </div>
-
     <div class="container-fluid" id="about" style="margin: 10px 0px 10px 0px;" align="center">
         <div class="container">
             <div class="row">
@@ -358,38 +362,30 @@
                         <h2 id="welcome">Welcome to Syphen Technologies</h2>
                         <p class="about-text">Syphen technologies is an Import and Marketing company based in Delhi (India) established since 2008.<br><br> Syphen technologies, though a young company, has inherent strength in networking with various institutions and medical
                             practitioners in various parts of India.</p>
-                        <a href="about.html" class="btn btn-primary">Read more</a>
+                        <a href="html/about.html" class="btn btn-primary">Read more</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-
     <footer class="navbar navbar-collapse-bottom white-text footer-bg" id="contact" align="center">
-        <div class="row">
-            <a href="#" class="scroll">
-                <h3 class="head-font"><span class="glyphicon glyphicon-chevron-up"></span>Back to top</h3>
-            </a>
-        </div>
         <div class="row">
             <div class="col-lg-6">
                 <h3 class="head-font-color">
                     Contact Us
                 </h3>
+                <a class="btn btn-primary get-quote-btn" data-toggle="modal" data-target="#myModal">Get A Quote</a>
                 <p>
                     16/21/02, Ground Floor,<br> Shokeenda Niwas, Pocket 4,<br> Sector 2, Rohini, Delhi, 110085
                 </p>
-                <p>Phone: <a href="tel:+91-97178-05468">+91-9717805468 <i class="glyphicon glyphicon-earphone"></i>  </a>, <a href="tel:+91-85270-58000">+91-8527058000 <i class="glyphicon glyphicon-earphone"></i></a></p>
-                <p>E-mail: <a href="mailto:info@syphentech.com">info@syphentech.com <i class="glyphicon glyphicon-envelope"></i></a></p>
+                <p>Phone: <a href="tel:+91-97178-05468">+91-9717805468 <i class="glyphicon glyphicon-earphone"></i> </a>, <a href="tel:+91-85270-58000">+91-8527058000 <i class="glyphicon glyphicon-earphone"></i></a></p>
+                <p>E-mail: <a href="mailto:namisha@syphentech.com">namisha@syphentech.com <i class="glyphicon glyphicon-envelope"></i></a></p>
                 <a class="btn btn-success head-font" style="font-size: 20px;" href="https://goo.gl/maps/LdtDn9MjT9T2" target="_blank">
                     <p>Get Directions <i class="glyphicon glyphicon-map-marker"></i></p>
                 </a>
             </div>
-
             <div class="col-lg-6">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.7432337598675!2d77.10343671425075!3d28.697326482392217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03e679803c3d%3A0x7e5c2e313df948ea!2sSyphen+Technologies!5e0!3m2!1sen!2sin!4v1562781127046!5m2!1sen!2sin"
-                    width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3499.7432337598675!2d77.10343671425075!3d28.697326482392217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d03e679803c3d%3A0x7e5c2e313df948ea!2sSyphen+Technologies!5e0!3m2!1sen!2sin!4v1562781127046!5m2!1sen!2sin" width="100%" height="250" frameborder="0" style="border:0" allowfullscreen></iframe>
             </div>
         </div>
         <br>
@@ -397,19 +393,18 @@
         <div class="row">
             <div class="social-media-bar">
                 <h2 class="head-font-color">Connect with Us!</h2>
-                <p><a href="https://www.facebook.com/SyphenTechnologies/" target="_blank"><i class="fab fa-facebook-square fa-2x facebook"></i></a> <i class="fab fa-twitter-square fa-2x twitter" style=""></i> <i class="fab fa-google-plus-square fa-2x google-plus"
-                        style=""> </i> <i class="fab fa-linkedin fa-2x linkedin"></i></p>
+                <p><a href="https://www.facebook.com/SyphenTechnologies/" target="_blank"><i class="fab fa-facebook-square fa-2x facebook"></i></a> <i class="fab fa-twitter-square fa-2x twitter" style=""></i> <i class="fab fa-google-plus-square fa-2x google-plus" style=""> </i> <i class="fab fa-linkedin fa-2x linkedin"></i></p>
             </div>
         </div>
         <div class="row">
             <p>&copy; Copyright 2019 Syphen Technologies. All rights Reserved.</p>
         </div>
     </footer>
-
     <script src="js/wow.min.js"></script>
     <script>
-        new WOW().init();
+    new WOW().init();
     </script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 
 </html>
